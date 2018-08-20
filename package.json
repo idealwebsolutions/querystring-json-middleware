@@ -1,0 +1,20 @@
+{
+  "name": "querystring-json-middleware",
+  "version": "1.0.0",
+  "description": "Parse urlencoded query strings as json for validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "author": "idealwebsolutions",
+  "license": "MIT",
+  "dependencies": {
+    "concat-stream": "^1.6.0",
+    "is-my-json-valid": "^2.16.0",
+    "pump": "^1.0.2"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2",
+    "tape": "^4.6.3"
+  }
+}
